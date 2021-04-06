@@ -85,7 +85,11 @@ img {
     margin: 0 auto;
     padding: 20px;
   }
+  .row img {
+    height: 100px;
+  }
 
+  /* BLOCCO LEZIONI */
   #lezioni {
     background-color: #f2f2cd;
     margin: 0;
@@ -96,7 +100,19 @@ img {
     float: left;
     margin-top: 20px;
   }
-  .row img {
-    height: 100px;
+
+  /* BLOCCO STEPS */
+  #steps {
+    background-color: white;
   }
+
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+
 }
